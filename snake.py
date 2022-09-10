@@ -70,18 +70,3 @@ class Snake:
         if self.head.heading() != LEFT:
             self.head.setheading(RIGHT)
         
-
-
-# def move_backward():
-#     tim.backward(100)
-    
-# def turn_left():
-#     new_heading = tim.heading() + 10
-#     tim.setheading(new_heading)
-
-# def turn_right():
-#     right_heading = tim.heading() - 10
-#     tim.setheading(right_heading)
-
-# screen.onkey(key="A", fun = turn_left)
-# screen.onkey(key="D", fun = turn_right)
